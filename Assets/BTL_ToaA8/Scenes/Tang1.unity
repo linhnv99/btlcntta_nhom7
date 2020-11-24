@@ -133,6 +133,16 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2859281661173949069, guid: d5ea23b7486e8624783c5ff1cd8309c0,
+        type: 3}
+      propertyPath: controllerSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2859281661173949069, guid: d5ea23b7486e8624783c5ff1cd8309c0,
+        type: 3}
+      propertyPath: playerSpeed
+      value: 0.25
+      objectReference: {fileID: 0}
     - target: {fileID: 2859281661329382378, guid: d5ea23b7486e8624783c5ff1cd8309c0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -192,6 +202,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: VRTK Setup
+      objectReference: {fileID: 0}
+    - target: {fileID: 2859281661684724756, guid: d5ea23b7486e8624783c5ff1cd8309c0,
+        type: 3}
+      propertyPath: processMoment
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d5ea23b7486e8624783c5ff1cd8309c0, type: 3}
