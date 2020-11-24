@@ -278,8 +278,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281660979162235}
-        m_TargetAssemblyTypeName: Zinnia.Tracking.Modification.GameObjectStateSwitcher,
-          Zinnia.Runtime
         m_MethodName: SwitchToCurrentIndex
         m_Mode: 1
         m_Arguments:
@@ -337,8 +335,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281661865045446}
-        m_TargetAssemblyTypeName: Zinnia.Tracking.Collision.Active.ActiveCollisionPublisher,
-          Zinnia.Runtime
         m_MethodName: SetActiveCollisions
         m_Mode: 0
         m_Arguments:
@@ -350,7 +346,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2859281661174944339}
-        m_TargetAssemblyTypeName: Zinnia.Utility.CountdownTimer, Zinnia.Runtime
         m_MethodName: EmitStatus
         m_Mode: 1
         m_Arguments:
@@ -985,7 +980,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281661039404677}
-        m_TargetAssemblyTypeName: 
         m_MethodName: Receive
         m_Mode: 0
         m_Arguments:
@@ -1024,7 +1018,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281662790467481}
-        m_TargetAssemblyTypeName: 
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -1042,7 +1035,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281662790467481}
-        m_TargetAssemblyTypeName: 
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -1309,7 +1301,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281661061944274}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -1321,8 +1312,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2859281662500240528}
-        m_TargetAssemblyTypeName: VRTK.Prefabs.CameraRig.TrackedAlias.TrackedAliasConfigurator,
-          VRTK.Prefabs.Runtime
         m_MethodName: NotifyLeftControllerTrackingBegun
         m_Mode: 1
         m_Arguments:
@@ -1468,7 +1457,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281661083018085}
-        m_TargetAssemblyTypeName: 
         m_MethodName: DoTransform
         m_Mode: 0
         m_Arguments:
@@ -1498,7 +1486,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281661083018087}
-        m_TargetAssemblyTypeName: 
         m_MethodName: DoTransform
         m_Mode: 0
         m_Arguments:
@@ -1525,7 +1512,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281661092007232}
-        m_TargetAssemblyTypeName: 
         m_MethodName: set_CurrentIndex
         m_Mode: 3
         m_Arguments:
@@ -1537,7 +1523,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2859281661083018082}
-        m_TargetAssemblyTypeName: 
         m_MethodName: DoTransform
         m_Mode: 0
         m_Arguments:
@@ -1565,7 +1550,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281661684724752}
-        m_TargetAssemblyTypeName: 
         m_MethodName: set_CurrentY
         m_Mode: 0
         m_Arguments:
@@ -1577,7 +1561,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2859281661684724752}
-        m_TargetAssemblyTypeName: 
         m_MethodName: DoTransform
         m_Mode: 1
         m_Arguments:
@@ -2585,7 +2568,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281662735327663}
-        m_TargetAssemblyTypeName: 
         m_MethodName: Publish
         m_Mode: 1
         m_Arguments:
@@ -2603,7 +2585,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281662045941489}
-        m_TargetAssemblyTypeName: 
         m_MethodName: Publish
         m_Mode: 1
         m_Arguments:
@@ -2802,7 +2783,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281661865045446}
-        m_TargetAssemblyTypeName: 
         m_MethodName: Publish
         m_Mode: 1
         m_Arguments:
@@ -2814,7 +2794,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2859281661174944339}
-        m_TargetAssemblyTypeName: 
         m_MethodName: Cancel
         m_Mode: 1
         m_Arguments:
@@ -3109,7 +3088,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281661192095433}
-        m_TargetAssemblyTypeName: 
         m_MethodName: DoTransform
         m_Mode: 0
         m_Arguments:
@@ -3139,7 +3117,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281661192095284}
-        m_TargetAssemblyTypeName: 
         m_MethodName: DoTransform
         m_Mode: 0
         m_Arguments:
@@ -3166,7 +3143,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281661891032759}
-        m_TargetAssemblyTypeName: 
         m_MethodName: set_CurrentIndex
         m_Mode: 3
         m_Arguments:
@@ -3178,7 +3154,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2859281661192095286}
-        m_TargetAssemblyTypeName: 
         m_MethodName: DoTransform
         m_Mode: 0
         m_Arguments:
@@ -3206,7 +3181,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281661684724752}
-        m_TargetAssemblyTypeName: 
         m_MethodName: set_CurrentX
         m_Mode: 0
         m_Arguments:
@@ -3218,7 +3192,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2859281661684724752}
-        m_TargetAssemblyTypeName: 
         m_MethodName: DoTransform
         m_Mode: 1
         m_Arguments:
@@ -3285,7 +3258,6 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -3310,7 +3282,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2859281661212296896
 GameObject:
   m_ObjectHideFlags: 0
@@ -3601,7 +3572,6 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3626,7 +3596,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &2859281661250810520
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3721,8 +3690,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281661492150326}
-        m_TargetAssemblyTypeName: Zinnia.Tracking.Collision.Active.Event.Proxy.ActiveCollisionsContainerEventProxyEmitter,
-          Zinnia.Runtime
         m_MethodName: Receive
         m_Mode: 0
         m_Arguments:
@@ -3737,8 +3704,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281662664586810}
-        m_TargetAssemblyTypeName: Zinnia.Tracking.Collision.Active.Event.Proxy.ActiveCollisionsContainerEventProxyEmitter,
-          Zinnia.Runtime
         m_MethodName: Receive
         m_Mode: 0
         m_Arguments:
@@ -3979,8 +3944,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281661380936053}
-        m_TargetAssemblyTypeName: Zinnia.Tracking.Collision.Active.Operation.NearestSorter,
-          Zinnia.Runtime
         m_MethodName: DoSort
         m_Mode: 0
         m_Arguments:
@@ -3992,8 +3955,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2859281661085536940}
-        m_TargetAssemblyTypeName: Zinnia.Tracking.Collision.Active.ActiveCollisionPublisher,
-          Zinnia.Runtime
         m_MethodName: Publish
         m_Mode: 1
         m_Arguments:
@@ -4005,8 +3966,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2859281662137979572}
-        m_TargetAssemblyTypeName: Zinnia.Tracking.Collision.Active.ActiveCollisionPublisher,
-          Zinnia.Runtime
         m_MethodName: Publish
         m_Mode: 1
         m_Arguments:
@@ -4097,8 +4056,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281662164155637}
-        m_TargetAssemblyTypeName: Zinnia.Tracking.Collision.Active.Event.Proxy.ActiveCollisionsContainerEventProxyEmitter,
-          Zinnia.Runtime
         m_MethodName: Receive
         m_Mode: 0
         m_Arguments:
@@ -4110,8 +4067,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2859281661763187097}
-        m_TargetAssemblyTypeName: Zinnia.Tracking.Collision.Active.ActiveCollisionPublisher,
-          Zinnia.Runtime
         m_MethodName: SetActiveCollisions
         m_Mode: 0
         m_Arguments:
@@ -4177,7 +4132,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -4192,7 +4146,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -4207,7 +4160,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -4222,7 +4174,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -4255,8 +4206,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281662175460964}
-        m_TargetAssemblyTypeName: Zinnia.Tracking.Collision.Active.ActiveCollisionsContainer,
-          Zinnia.Runtime
         m_MethodName: Add
         m_Mode: 0
         m_Arguments:
@@ -4271,8 +4220,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281662175460964}
-        m_TargetAssemblyTypeName: Zinnia.Tracking.Collision.Active.ActiveCollisionsContainer,
-          Zinnia.Runtime
         m_MethodName: ProcessContentsChanged
         m_Mode: 1
         m_Arguments:
@@ -4287,8 +4234,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281662175460964}
-        m_TargetAssemblyTypeName: Zinnia.Tracking.Collision.Active.ActiveCollisionsContainer,
-          Zinnia.Runtime
         m_MethodName: Remove
         m_Mode: 0
         m_Arguments:
@@ -4497,8 +4442,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281661274854556}
-        m_TargetAssemblyTypeName: Zinnia.Tracking.Collision.Active.Operation.Slicer,
-          Zinnia.Runtime
         m_MethodName: DoSlice
         m_Mode: 0
         m_Arguments:
@@ -4811,7 +4754,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281662610807207}
-        m_TargetAssemblyTypeName: 
         m_MethodName: Receive
         m_Mode: 1
         m_Arguments:
@@ -4829,7 +4771,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281662105389021}
-        m_TargetAssemblyTypeName: 
         m_MethodName: Publish
         m_Mode: 1
         m_Arguments:
@@ -4902,7 +4843,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -4961,8 +4901,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281660988138514}
-        m_TargetAssemblyTypeName: VRTK.Prefabs.CameraRig.CameraRigSwitcher.XRSettingsConfigurator,
-          VRTK.Prefabs.Runtime
         m_MethodName: DisableXR
         m_Mode: 1
         m_Arguments:
@@ -4974,8 +4912,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2859281660979162235}
-        m_TargetAssemblyTypeName: Zinnia.Tracking.Modification.GameObjectStateSwitcher,
-          Zinnia.Runtime
         m_MethodName: SwitchTo
         m_Mode: 3
         m_Arguments:
@@ -5105,8 +5041,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281662960329733}
-        m_TargetAssemblyTypeName: Zinnia.Tracking.Collision.Active.Event.Proxy.ActiveCollisionsContainerEventProxyEmitter,
-          Zinnia.Runtime
         m_MethodName: Receive
         m_Mode: 0
         m_Arguments:
@@ -5118,8 +5052,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2859281662756584763}
-        m_TargetAssemblyTypeName: Zinnia.Tracking.Collision.Active.Event.Proxy.ActiveCollisionsContainerEventProxyEmitter,
-          Zinnia.Runtime
         m_MethodName: Receive
         m_Mode: 0
         m_Arguments:
@@ -5602,8 +5534,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281661545349398}
-        m_TargetAssemblyTypeName: Zinnia.Data.Type.Transformation.Aggregation.Vector2Multiplier,
-          Zinnia.Runtime
         m_MethodName: DoTransform
         m_Mode: 0
         m_Arguments:
@@ -5634,8 +5564,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281661545349399}
-        m_TargetAssemblyTypeName: Zinnia.Data.Type.Transformation.Conversion.Vector2ToVector3,
-          Zinnia.Runtime
         m_MethodName: DoTransform
         m_Mode: 0
         m_Arguments:
@@ -5663,8 +5591,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281661499975641}
-        m_TargetAssemblyTypeName: Zinnia.Data.Operation.Mutation.TransformEulerRotationMutator,
-          Zinnia.Runtime
         m_MethodName: DoIncrementProperty
         m_Mode: 0
         m_Arguments:
@@ -5676,8 +5602,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2859281661177925625}
-        m_TargetAssemblyTypeName: Zinnia.Data.Operation.Mutation.TransformEulerRotationMutator,
-          Zinnia.Runtime
         m_MethodName: DoIncrementProperty
         m_Mode: 0
         m_Arguments:
@@ -5689,8 +5613,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2859281661188422333}
-        m_TargetAssemblyTypeName: Zinnia.Data.Operation.Mutation.TransformEulerRotationMutator,
-          Zinnia.Runtime
         m_MethodName: DoIncrementProperty
         m_Mode: 0
         m_Arguments:
@@ -5975,7 +5897,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281661575578229}
-        m_TargetAssemblyTypeName: 
         m_MethodName: Publish
         m_Mode: 1
         m_Arguments:
@@ -5987,7 +5908,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2859281661571136806}
-        m_TargetAssemblyTypeName: 
         m_MethodName: Cancel
         m_Mode: 1
         m_Arguments:
@@ -6057,7 +5977,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281661930563483}
-        m_TargetAssemblyTypeName: 
         m_MethodName: SetActiveCollisions
         m_Mode: 0
         m_Arguments:
@@ -6684,7 +6603,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281661684724755}
-        m_TargetAssemblyTypeName: 
         m_MethodName: Receive
         m_Mode: 0
         m_Arguments:
@@ -6721,8 +6639,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281661684724754}
-        m_TargetAssemblyTypeName: Zinnia.Data.Type.Transformation.Conversion.Vector2ToVector3,
-          Zinnia.Runtime
         m_MethodName: DoTransform
         m_Mode: 0
         m_Arguments:
@@ -6753,8 +6669,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281661499975640}
-        m_TargetAssemblyTypeName: Zinnia.Data.Operation.Mutation.TransformPositionMutator,
-          Zinnia.Runtime
         m_MethodName: DoIncrementProperty
         m_Mode: 0
         m_Arguments:
@@ -6766,8 +6680,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2859281661177925607}
-        m_TargetAssemblyTypeName: Zinnia.Data.Operation.Mutation.TransformPositionMutator,
-          Zinnia.Runtime
         m_MethodName: DoIncrementProperty
         m_Mode: 0
         m_Arguments:
@@ -6779,8 +6691,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2859281661188422330}
-        m_TargetAssemblyTypeName: Zinnia.Data.Operation.Mutation.TransformPositionMutator,
-          Zinnia.Runtime
         m_MethodName: DoIncrementProperty
         m_Mode: 0
         m_Arguments:
@@ -7004,7 +6914,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -7161,7 +7070,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281661575578229}
-        m_TargetAssemblyTypeName: 
         m_MethodName: Publish
         m_Mode: 1
         m_Arguments:
@@ -7257,7 +7165,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2859281661740668217
 Transform:
   m_ObjectHideFlags: 0
@@ -7357,7 +7265,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -7534,7 +7441,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281660944652905}
-        m_TargetAssemblyTypeName: 
         m_MethodName: SetActiveCollisions
         m_Mode: 0
         m_Arguments:
@@ -7763,8 +7669,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281662901611497}
-        m_TargetAssemblyTypeName: Zinnia.Tracking.Collision.Active.Event.Proxy.ActiveCollisionsContainerEventProxyEmitter,
-          Zinnia.Runtime
         m_MethodName: Receive
         m_Mode: 0
         m_Arguments:
@@ -7776,8 +7680,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2859281661330152086}
-        m_TargetAssemblyTypeName: Zinnia.Tracking.Collision.Active.Event.Proxy.ActiveCollisionsContainerEventProxyEmitter,
-          Zinnia.Runtime
         m_MethodName: Receive
         m_Mode: 0
         m_Arguments:
@@ -7843,7 +7745,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -7858,7 +7759,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -7873,7 +7773,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -7888,7 +7787,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -7921,8 +7819,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281662168930139}
-        m_TargetAssemblyTypeName: Zinnia.Tracking.Collision.Active.ActiveCollisionsContainer,
-          Zinnia.Runtime
         m_MethodName: Add
         m_Mode: 0
         m_Arguments:
@@ -7937,8 +7833,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281662168930139}
-        m_TargetAssemblyTypeName: Zinnia.Tracking.Collision.Active.ActiveCollisionsContainer,
-          Zinnia.Runtime
         m_MethodName: ProcessContentsChanged
         m_Mode: 1
         m_Arguments:
@@ -7953,8 +7847,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281662168930139}
-        m_TargetAssemblyTypeName: Zinnia.Tracking.Collision.Active.ActiveCollisionsContainer,
-          Zinnia.Runtime
         m_MethodName: Remove
         m_Mode: 0
         m_Arguments:
@@ -8141,7 +8033,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -8212,7 +8103,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281662105389021}
-        m_TargetAssemblyTypeName: 
         m_MethodName: SetActiveCollisions
         m_Mode: 0
         m_Arguments:
@@ -8386,7 +8276,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0.392}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -8564,7 +8453,6 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -8589,7 +8477,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2859281661906498325
 GameObject:
   m_ObjectHideFlags: 0
@@ -8649,7 +8536,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281661906498326}
-        m_TargetAssemblyTypeName: 
         m_MethodName: DoTransform
         m_Mode: 0
         m_Arguments:
@@ -8679,7 +8565,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281661906498344}
-        m_TargetAssemblyTypeName: 
         m_MethodName: DoTransform
         m_Mode: 0
         m_Arguments:
@@ -8706,7 +8591,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281661092007232}
-        m_TargetAssemblyTypeName: 
         m_MethodName: set_CurrentIndex
         m_Mode: 3
         m_Arguments:
@@ -8718,7 +8602,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2859281661083018082}
-        m_TargetAssemblyTypeName: 
         m_MethodName: DoTransform
         m_Mode: 0
         m_Arguments:
@@ -8942,7 +8825,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281662216351053}
-        m_TargetAssemblyTypeName: 
         m_MethodName: SwitchTo
         m_Mode: 3
         m_Arguments:
@@ -9257,7 +9139,6 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9282,7 +9163,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &2859281662017511049
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9960,7 +9840,6 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -9985,7 +9864,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2859281662127767666
 GameObject:
   m_ObjectHideFlags: 0
@@ -10206,7 +10084,6 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -10231,7 +10108,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2859281662163911427
 GameObject:
   m_ObjectHideFlags: 0
@@ -10310,8 +10186,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281661575578229}
-        m_TargetAssemblyTypeName: Zinnia.Tracking.Collision.Active.ActiveCollisionPublisher,
-          Zinnia.Runtime
         m_MethodName: SetActiveCollisions
         m_Mode: 0
         m_Arguments:
@@ -10323,7 +10197,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2859281661571136806}
-        m_TargetAssemblyTypeName: Zinnia.Utility.CountdownTimer, Zinnia.Runtime
         m_MethodName: EmitStatus
         m_Mode: 1
         m_Arguments:
@@ -10388,8 +10261,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281662729365676}
-        m_TargetAssemblyTypeName: Zinnia.Tracking.Collision.Active.Event.Proxy.ActiveCollisionsContainerEventProxyEmitter,
-          Zinnia.Runtime
         m_MethodName: Receive
         m_Mode: 0
         m_Arguments:
@@ -10465,7 +10336,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281662174447970}
-        m_TargetAssemblyTypeName: 
         m_MethodName: Receive
         m_Mode: 0
         m_Arguments:
@@ -10504,7 +10374,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281662723880839}
-        m_TargetAssemblyTypeName: 
         m_MethodName: set_LockCursor
         m_Mode: 6
         m_Arguments:
@@ -10522,7 +10391,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281662723880839}
-        m_TargetAssemblyTypeName: 
         m_MethodName: set_LockCursor
         m_Mode: 6
         m_Arguments:
@@ -10587,8 +10455,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281661322724760}
-        m_TargetAssemblyTypeName: Zinnia.Tracking.Collision.Active.Event.Proxy.ActiveCollisionsContainerEventProxyEmitter,
-          Zinnia.Runtime
         m_MethodName: Receive
         m_Mode: 0
         m_Arguments:
@@ -10836,8 +10702,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281662216351053}
-        m_TargetAssemblyTypeName: Zinnia.Tracking.Modification.GameObjectStateSwitcher,
-          Zinnia.Runtime
         m_MethodName: SwitchToCurrentIndex
         m_Mode: 1
         m_Arguments:
@@ -10939,7 +10803,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281661540683076}
-        m_TargetAssemblyTypeName: 
         m_MethodName: ResetProperties
         m_Mode: 1
         m_Arguments:
@@ -11042,7 +10905,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281661728847920}
-        m_TargetAssemblyTypeName: 
         m_MethodName: Receive
         m_Mode: 1
         m_Arguments:
@@ -11054,7 +10916,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2859281662596775191}
-        m_TargetAssemblyTypeName: 
         m_MethodName: Receive
         m_Mode: 1
         m_Arguments:
@@ -11201,7 +11062,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281662268811561}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -11213,8 +11073,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2859281662500240528}
-        m_TargetAssemblyTypeName: VRTK.Prefabs.CameraRig.TrackedAlias.TrackedAliasConfigurator,
-          VRTK.Prefabs.Runtime
         m_MethodName: NotifyHeadsetTrackingBegun
         m_Mode: 1
         m_Arguments:
@@ -11405,7 +11263,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281662334421402}
-        m_TargetAssemblyTypeName: 
         m_MethodName: DoTransform
         m_Mode: 0
         m_Arguments:
@@ -11435,7 +11292,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281662334421404}
-        m_TargetAssemblyTypeName: 
         m_MethodName: DoTransform
         m_Mode: 0
         m_Arguments:
@@ -11462,7 +11318,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281661891032759}
-        m_TargetAssemblyTypeName: 
         m_MethodName: set_CurrentIndex
         m_Mode: 3
         m_Arguments:
@@ -11474,7 +11329,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2859281661192095286}
-        m_TargetAssemblyTypeName: 
         m_MethodName: DoTransform
         m_Mode: 0
         m_Arguments:
@@ -12118,7 +11972,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -12204,7 +12057,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281662447813984}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -12216,8 +12068,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2859281662500240528}
-        m_TargetAssemblyTypeName: VRTK.Prefabs.CameraRig.TrackedAlias.TrackedAliasConfigurator,
-          VRTK.Prefabs.Runtime
         m_MethodName: NotifyRightControllerTrackingBegun
         m_Mode: 1
         m_Arguments:
@@ -12283,7 +12133,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281662216351053}
-        m_TargetAssemblyTypeName: 
         m_MethodName: SwitchTo
         m_Mode: 3
         m_Arguments:
@@ -12416,8 +12265,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281661816216940}
-        m_TargetAssemblyTypeName: Zinnia.Tracking.Collision.Active.Event.Proxy.ActiveCollisionsContainerEventProxyEmitter,
-          Zinnia.Runtime
         m_MethodName: Receive
         m_Mode: 0
         m_Arguments:
@@ -12432,8 +12279,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281662792174656}
-        m_TargetAssemblyTypeName: Zinnia.Tracking.Collision.Active.Event.Proxy.ActiveCollisionsContainerEventProxyEmitter,
-          Zinnia.Runtime
         m_MethodName: Receive
         m_Mode: 0
         m_Arguments:
@@ -12846,7 +12691,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281661763187097}
-        m_TargetAssemblyTypeName: 
         m_MethodName: Publish
         m_Mode: 1
         m_Arguments:
@@ -12864,7 +12708,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281660944652905}
-        m_TargetAssemblyTypeName: 
         m_MethodName: Publish
         m_Mode: 1
         m_Arguments:
@@ -13144,8 +12987,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281662470059037}
-        m_TargetAssemblyTypeName: Zinnia.Tracking.Collision.Active.Operation.Slicer,
-          Zinnia.Runtime
         m_MethodName: DoSlice
         m_Mode: 0
         m_Arguments:
@@ -13301,7 +13142,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281661571136806}
-        m_TargetAssemblyTypeName: 
         m_MethodName: Begin
         m_Mode: 1
         m_Arguments:
@@ -13364,7 +13204,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281662216351053}
-        m_TargetAssemblyTypeName: 
         m_MethodName: SwitchTo
         m_Mode: 3
         m_Arguments:
@@ -13502,7 +13341,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281662708881744}
-        m_TargetAssemblyTypeName: 
         m_MethodName: Receive
         m_Mode: 1
         m_Arguments:
@@ -13514,7 +13352,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2859281662715148926}
-        m_TargetAssemblyTypeName: 
         m_MethodName: Receive
         m_Mode: 1
         m_Arguments:
@@ -13808,8 +13645,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281662137979572}
-        m_TargetAssemblyTypeName: Zinnia.Tracking.Collision.Active.ActiveCollisionPublisher,
-          Zinnia.Runtime
         m_MethodName: SetActiveCollisions
         m_Mode: 0
         m_Arguments:
@@ -14062,7 +13897,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281661865045446}
-        m_TargetAssemblyTypeName: 
         m_MethodName: Publish
         m_Mode: 1
         m_Arguments:
@@ -14152,7 +13986,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281661174944339}
-        m_TargetAssemblyTypeName: 
         m_MethodName: Begin
         m_Mode: 1
         m_Arguments:
@@ -14215,7 +14048,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281661177925627}
-        m_TargetAssemblyTypeName: 
         m_MethodName: ResetProperties
         m_Mode: 1
         m_Arguments:
@@ -14227,7 +14059,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2859281661188422328}
-        m_TargetAssemblyTypeName: 
         m_MethodName: ResetProperties
         m_Mode: 1
         m_Arguments:
@@ -14357,8 +14188,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281662573050680}
-        m_TargetAssemblyTypeName: Zinnia.Tracking.Collision.Active.Operation.NearestSorter,
-          Zinnia.Runtime
         m_MethodName: DoSort
         m_Mode: 0
         m_Arguments:
@@ -14370,8 +14199,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2859281661447212751}
-        m_TargetAssemblyTypeName: Zinnia.Tracking.Collision.Active.ActiveCollisionPublisher,
-          Zinnia.Runtime
         m_MethodName: Publish
         m_Mode: 1
         m_Arguments:
@@ -14383,8 +14210,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2859281661611636199}
-        m_TargetAssemblyTypeName: Zinnia.Tracking.Collision.Active.ActiveCollisionPublisher,
-          Zinnia.Runtime
         m_MethodName: Publish
         m_Mode: 1
         m_Arguments:
@@ -14445,7 +14270,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281662045941489}
-        m_TargetAssemblyTypeName: 
         m_MethodName: SetActiveCollisions
         m_Mode: 0
         m_Arguments:
@@ -14515,8 +14339,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281660981876287}
-        m_TargetAssemblyTypeName: Zinnia.Tracking.Collision.Active.Event.Proxy.ActiveCollisionsContainerEventProxyEmitter,
-          Zinnia.Runtime
         m_MethodName: Receive
         m_Mode: 0
         m_Arguments:
@@ -14528,8 +14350,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2859281662735327663}
-        m_TargetAssemblyTypeName: Zinnia.Tracking.Collision.Active.ActiveCollisionPublisher,
-          Zinnia.Runtime
         m_MethodName: SetActiveCollisions
         m_Mode: 0
         m_Arguments:
@@ -14592,7 +14412,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281662248814306}
-        m_TargetAssemblyTypeName: 
         m_MethodName: Receive
         m_Mode: 1
         m_Arguments:
@@ -14610,7 +14429,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281661930563483}
-        m_TargetAssemblyTypeName: 
         m_MethodName: Publish
         m_Mode: 1
         m_Arguments:
@@ -14683,7 +14501,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -14742,7 +14559,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281660979162235}
-        m_TargetAssemblyTypeName: 
         m_MethodName: SwitchTo
         m_Mode: 3
         m_Arguments:
@@ -14754,7 +14570,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2859281660988138514}
-        m_TargetAssemblyTypeName: 
         m_MethodName: EnableXR
         m_Mode: 1
         m_Arguments:
@@ -15156,8 +14971,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281661611636199}
-        m_TargetAssemblyTypeName: Zinnia.Tracking.Collision.Active.ActiveCollisionPublisher,
-          Zinnia.Runtime
         m_MethodName: SetActiveCollisions
         m_Mode: 0
         m_Arguments:
@@ -15223,7 +15036,6 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -15248,7 +15060,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2859281662846282144
 GameObject:
   m_ObjectHideFlags: 0
@@ -15388,7 +15199,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2859281662856268430
 Transform:
   m_ObjectHideFlags: 0
@@ -15681,7 +15492,6 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -15706,7 +15516,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2859281662901611479
 GameObject:
   m_ObjectHideFlags: 0
@@ -15754,8 +15563,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281661447212751}
-        m_TargetAssemblyTypeName: Zinnia.Tracking.Collision.Active.ActiveCollisionPublisher,
-          Zinnia.Runtime
         m_MethodName: SetActiveCollisions
         m_Mode: 0
         m_Arguments:
@@ -15939,7 +15746,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281662955444753}
-        m_TargetAssemblyTypeName: 
         m_MethodName: AddColorOverlay
         m_Mode: 1
         m_Arguments:
@@ -15957,7 +15763,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281662955444753}
-        m_TargetAssemblyTypeName: 
         m_MethodName: RemoveColorOverlay
         m_Mode: 1
         m_Arguments:
@@ -16032,8 +15837,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2859281661085536940}
-        m_TargetAssemblyTypeName: Zinnia.Tracking.Collision.Active.ActiveCollisionPublisher,
-          Zinnia.Runtime
         m_MethodName: SetActiveCollisions
         m_Mode: 0
         m_Arguments:
@@ -16325,7 +16128,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0.78431374}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
