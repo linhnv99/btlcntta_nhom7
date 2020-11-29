@@ -15,10 +15,10 @@ TagManager:
   - 
   - PostProcessing
   - PointerGrabbableObject
-  - 
-  - 
-  - 
-  - 
+  - LightSwitch
+  - Door
+  - Environment
+  - BanVa
   - 
   - 
   - 
