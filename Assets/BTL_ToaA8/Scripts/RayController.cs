@@ -20,9 +20,10 @@ public class RayController : MonoBehaviour
         text.GetComponent<RectTransform>().sizeDelta = rect.size;
         text.gameObject.SetActive(false);
     }
+    Ray ray;
     private void Update()
     {
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
         if (Physics.Raycast(ray.origin,ray.direction, out hit, 1.5f,1<<11| 1<<9 | 1<<10,QueryTriggerInteraction.Collide))
         {
@@ -93,8 +94,7 @@ public class RayController : MonoBehaviour
 
                 Vector3 posOrigin = this.gameObject.transform.position;
                 Vector3 posDir = this.gameObject.transform.forward;
-                offset = posOrigin + posDir;
-                offset.y = (offset.y < 0.7f) ? 0.8f : offset.y;
+                offset = ray.origin + ray.direction;
                 selectedObject.transform.position = offset;
             }
         }

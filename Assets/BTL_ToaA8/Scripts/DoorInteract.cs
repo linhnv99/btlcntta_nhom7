@@ -8,6 +8,8 @@ public class DoorInteract : MonoBehaviour
     private void OnEnable()
     {
         m_Animator = this.GetComponent<Animator>();
+        if (!m_Animator.enabled)
+            m_Animator.enabled = true;
         m_Animator.SetBool("OnOff", false);
     }
 
