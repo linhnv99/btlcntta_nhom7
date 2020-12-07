@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4472874745076354140}
   - component: {fileID: 8211836232471360721}
   - component: {fileID: 8211836232471360720}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Batis.034
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98,7 +98,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360720
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -126,7 +126,7 @@ GameObject:
   - component: {fileID: 2740259898249012130}
   - component: {fileID: 8211836232471360663}
   - component: {fileID: 8211836232471360662}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: BucGiang23.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -211,7 +211,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360662
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -239,7 +239,9 @@ GameObject:
   - component: {fileID: 2637656544700857124}
   - component: {fileID: 8211836232471361149}
   - component: {fileID: 8211836232471361148}
-  m_Layer: 0
+  - component: {fileID: 1780153050}
+  - component: {fileID: 1780153051}
+  m_Layer: 11
   m_Name: Porte.048
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -325,7 +327,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471361148
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -340,6 +342,37 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8847972409653602825, guid: 78ade05d8866c8c47abaaa061572cf44, type: 3}
+--- !u!95 &1780153050
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 160028010593908875}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fe6ad98e777f07d4eba644983b89b5d6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1780153051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 160028010593908875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07a257d1f2e64ae4eb31e31d81c48b40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &252396866323773094
 GameObject:
   m_ObjectHideFlags: 0
@@ -353,7 +386,7 @@ GameObject:
   - component: {fileID: 108834163409413408}
   - component: {fileID: 8211836232471360823}
   - component: {fileID: 8211836232471360822}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.066
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -438,7 +471,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360822
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -466,7 +499,7 @@ GameObject:
   - component: {fileID: 7765286664060802434}
   - component: {fileID: 8211836232471360727}
   - component: {fileID: 8211836232471360726}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Batis.037
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -551,7 +584,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360726
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -579,7 +612,7 @@ GameObject:
   - component: {fileID: 5098275707195604044}
   - component: {fileID: 8211836232471360957}
   - component: {fileID: 8211836232471360956}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Porte.012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -664,7 +697,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360956
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -692,7 +725,7 @@ GameObject:
   - component: {fileID: 1183558155427371865}
   - component: {fileID: 8211836232471360827}
   - component: {fileID: 8211836232471360826}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.060
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -777,7 +810,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360826
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -805,7 +838,7 @@ GameObject:
   - component: {fileID: 1698299534901504807}
   - component: {fileID: 8211836232471360869}
   - component: {fileID: 8211836232471360868}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cabinet1_Door.009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -891,7 +924,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360868
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -919,7 +952,9 @@ GameObject:
   - component: {fileID: 1016414876264838903}
   - component: {fileID: 8211836232471361137}
   - component: {fileID: 8211836232471361136}
-  m_Layer: 0
+  - component: {fileID: 1587511197}
+  - component: {fileID: 1587511198}
+  m_Layer: 11
   m_Name: Porte.050
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1005,7 +1040,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471361136
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1020,6 +1055,37 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 5719708259308907665, guid: 78ade05d8866c8c47abaaa061572cf44, type: 3}
+--- !u!95 &1587511197
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 411520291069200717}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b2d62ef901845c34f903c4f9c6fc3c0f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1587511198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 411520291069200717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07a257d1f2e64ae4eb31e31d81c48b40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &488894656120870368
 GameObject:
   m_ObjectHideFlags: 0
@@ -1033,7 +1099,7 @@ GameObject:
   - component: {fileID: 2195603521511599587}
   - component: {fileID: 8211836232471360991}
   - component: {fileID: 8211836232471360990}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mangtuong.016
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1081,7 +1147,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b10b11c1a392abf48acdfc7f7ead7922, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1118,7 +1184,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360990
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1146,7 +1212,7 @@ GameObject:
   - component: {fileID: 1744575285244621137}
   - component: {fileID: 8211836232471360971}
   - component: {fileID: 8211836232471360970}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cube.032
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1231,7 +1297,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360970
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1259,7 +1325,7 @@ GameObject:
   - component: {fileID: 4335932182216310392}
   - component: {fileID: 8211836232471360789}
   - component: {fileID: 8211836232471360788}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.081
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1344,7 +1410,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360788
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1372,7 +1438,7 @@ GameObject:
   - component: {fileID: 7032536516767278249}
   - component: {fileID: 8211836232471360817}
   - component: {fileID: 8211836232471360816}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.063
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1457,7 +1523,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360816
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1485,7 +1551,7 @@ GameObject:
   - component: {fileID: 3071900657901508912}
   - component: {fileID: 8211836232471360741}
   - component: {fileID: 8211836232471360740}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Batis
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1570,7 +1636,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360740
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1598,7 +1664,7 @@ GameObject:
   - component: {fileID: 8309884779335375665}
   - component: {fileID: 8211836232471360821}
   - component: {fileID: 8211836232471360820}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.065
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1683,7 +1749,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360820
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1711,7 +1777,7 @@ GameObject:
   - component: {fileID: 1398969730654400714}
   - component: {fileID: 8211836232471360765}
   - component: {fileID: 8211836232471360764}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Batis.012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1796,7 +1862,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360764
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1824,7 +1890,7 @@ GameObject:
   - component: {fileID: 5354019718933298234}
   - component: {fileID: 8211836232471360879}
   - component: {fileID: 8211836232471360878}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cabinet1_Door.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1909,7 +1975,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360878
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1937,7 +2003,7 @@ GameObject:
   - component: {fileID: 2219357272968026652}
   - component: {fileID: 8211836232471360783}
   - component: {fileID: 8211836232471360782}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.070
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2022,7 +2088,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360782
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2050,7 +2116,7 @@ GameObject:
   - component: {fileID: 2686299728176670741}
   - component: {fileID: 8211836232471360819}
   - component: {fileID: 8211836232471360818}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.064
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2135,7 +2201,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360818
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2163,7 +2229,7 @@ GameObject:
   - component: {fileID: 8183929146710843953}
   - component: {fileID: 8211836232471360939}
   - component: {fileID: 8211836232471360938}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mangtuong.022
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2211,7 +2277,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -3846018093981099296, guid: 78ade05d8866c8c47abaaa061572cf44, type: 3}
+  - {fileID: 2100000, guid: b10b11c1a392abf48acdfc7f7ead7922, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2248,7 +2314,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360938
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2276,7 +2342,7 @@ GameObject:
   - component: {fileID: 381986706531544385}
   - component: {fileID: 8211836232471360657}
   - component: {fileID: 8211836232471360656}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: BucGiang22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2361,7 +2427,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360656
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2389,7 +2455,7 @@ GameObject:
   - component: {fileID: 8939644638472356331}
   - component: {fileID: 8211836232471360847}
   - component: {fileID: 8211836232471360846}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2474,7 +2540,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360846
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2502,7 +2568,9 @@ GameObject:
   - component: {fileID: 8026324648995157742}
   - component: {fileID: 8211836232471361091}
   - component: {fileID: 8211836232471361090}
-  m_Layer: 0
+  - component: {fileID: 443605348}
+  - component: {fileID: 443605349}
+  m_Layer: 11
   m_Name: Porte.059
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2588,7 +2656,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471361090
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2603,6 +2671,37 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 5245886007493609805, guid: 78ade05d8866c8c47abaaa061572cf44, type: 3}
+--- !u!95 &443605348
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992607400365255025}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b2d62ef901845c34f903c4f9c6fc3c0f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &443605349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992607400365255025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07a257d1f2e64ae4eb31e31d81c48b40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1054556203955997680
 GameObject:
   m_ObjectHideFlags: 0
@@ -2616,7 +2715,9 @@ GameObject:
   - component: {fileID: 7980778654796740898}
   - component: {fileID: 8211836232471361097}
   - component: {fileID: 8211836232471361096}
-  m_Layer: 0
+  - component: {fileID: 1777030993}
+  - component: {fileID: 1777030994}
+  m_Layer: 11
   m_Name: Porte.054
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2702,7 +2803,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471361096
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2717,6 +2818,37 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7327601127319191782, guid: 78ade05d8866c8c47abaaa061572cf44, type: 3}
+--- !u!95 &1777030993
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1054556203955997680}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b2d62ef901845c34f903c4f9c6fc3c0f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1777030994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1054556203955997680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07a257d1f2e64ae4eb31e31d81c48b40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1092136885259491447
 GameObject:
   m_ObjectHideFlags: 0
@@ -2730,7 +2862,7 @@ GameObject:
   - component: {fileID: 8715827140683961290}
   - component: {fileID: 8211836232471361011}
   - component: {fileID: 8211836232471361010}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cube.026
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2815,7 +2947,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471361010
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2843,7 +2975,7 @@ GameObject:
   - component: {fileID: 561327067008736579}
   - component: {fileID: 8211836232471360649}
   - component: {fileID: 8211836232471360648}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bowl.021
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2928,7 +3060,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360648
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2956,7 +3088,7 @@ GameObject:
   - component: {fileID: 972749903120624540}
   - component: {fileID: 8211836232471361095}
   - component: {fileID: 8211836232471361094}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: ThangTren.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3041,7 +3173,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471361094
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3069,7 +3201,7 @@ GameObject:
   - component: {fileID: 7346163367945397772}
   - component: {fileID: 8211836232471360995}
   - component: {fileID: 8211836232471360994}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cube.017
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3154,7 +3286,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360994
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3182,7 +3314,9 @@ GameObject:
   - component: {fileID: 8163401906935335888}
   - component: {fileID: 8211836232471361143}
   - component: {fileID: 8211836232471361142}
-  m_Layer: 0
+  - component: {fileID: 447979200}
+  - component: {fileID: 447979201}
+  m_Layer: 11
   m_Name: Porte.053
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3268,7 +3402,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471361142
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3283,6 +3417,37 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -6573512750204926222, guid: 78ade05d8866c8c47abaaa061572cf44, type: 3}
+--- !u!95 &447979200
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282785592819730270}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fe6ad98e777f07d4eba644983b89b5d6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &447979201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282785592819730270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07a257d1f2e64ae4eb31e31d81c48b40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1294102098612985748
 GameObject:
   m_ObjectHideFlags: 0
@@ -3296,7 +3461,7 @@ GameObject:
   - component: {fileID: 5446078622837750460}
   - component: {fileID: 8211836232471360777}
   - component: {fileID: 8211836232471360776}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.067
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3381,7 +3546,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360776
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3409,7 +3574,7 @@ GameObject:
   - component: {fileID: 452844974047384058}
   - component: {fileID: 8211836232471361021}
   - component: {fileID: 8211836232471361020}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cube.023
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3494,7 +3659,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471361020
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3522,7 +3687,9 @@ GameObject:
   - component: {fileID: 6090131495505439762}
   - component: {fileID: 8211836232471361139}
   - component: {fileID: 8211836232471361138}
-  m_Layer: 0
+  - component: {fileID: 2135503346}
+  - component: {fileID: 2135503347}
+  m_Layer: 11
   m_Name: Porte.051
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3608,7 +3775,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471361138
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3623,6 +3790,37 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 513853205970549745, guid: 78ade05d8866c8c47abaaa061572cf44, type: 3}
+--- !u!95 &2135503346
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1385534760759886569}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b2d62ef901845c34f903c4f9c6fc3c0f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2135503347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1385534760759886569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07a257d1f2e64ae4eb31e31d81c48b40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1397582136492161547
 GameObject:
   m_ObjectHideFlags: 0
@@ -3636,7 +3834,7 @@ GameObject:
   - component: {fileID: 6437521749229623127}
   - component: {fileID: 8211836232471360967}
   - component: {fileID: 8211836232471360966}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cube.038
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3721,7 +3919,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360966
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3749,7 +3947,7 @@ GameObject:
   - component: {fileID: 9000620116914136073}
   - component: {fileID: 8211836232471360987}
   - component: {fileID: 8211836232471360986}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cube.040
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3834,7 +4032,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360986
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3862,7 +4060,7 @@ GameObject:
   - component: {fileID: 4537087690602758505}
   - component: {fileID: 8211836232471360829}
   - component: {fileID: 8211836232471360828}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.061
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3947,7 +4145,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360828
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3975,7 +4173,9 @@ GameObject:
   - component: {fileID: 6926591565845885273}
   - component: {fileID: 8211836232471361141}
   - component: {fileID: 8211836232471361140}
-  m_Layer: 0
+  - component: {fileID: 1420645471}
+  - component: {fileID: 1420645472}
+  m_Layer: 11
   m_Name: Porte.052
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4061,7 +4261,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471361140
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4076,6 +4276,37 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -6015353363526838299, guid: 78ade05d8866c8c47abaaa061572cf44, type: 3}
+--- !u!95 &1420645471
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1515731461297848116}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fe6ad98e777f07d4eba644983b89b5d6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1420645472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1515731461297848116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07a257d1f2e64ae4eb31e31d81c48b40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1585647553227510627
 GameObject:
   m_ObjectHideFlags: 0
@@ -4089,7 +4320,7 @@ GameObject:
   - component: {fileID: 4879611336781952868}
   - component: {fileID: 8211836232471360925}
   - component: {fileID: 8211836232471360924}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Porte.032
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4174,7 +4405,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360924
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4202,7 +4433,7 @@ GameObject:
   - component: {fileID: 9159518479561751417}
   - component: {fileID: 8211836232471360835}
   - component: {fileID: 8211836232471360834}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4287,7 +4518,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360834
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4315,7 +4546,7 @@ GameObject:
   - component: {fileID: 1891295683840817042}
   - component: {fileID: 8211836232471360779}
   - component: {fileID: 8211836232471360778}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.068
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4400,7 +4631,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360778
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4428,7 +4659,7 @@ GameObject:
   - component: {fileID: 2263083414930442011}
   - component: {fileID: 8211836232471360913}
   - component: {fileID: 8211836232471360912}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Porte.034
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4513,7 +4744,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360912
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4541,7 +4772,9 @@ GameObject:
   - component: {fileID: 6808574105953093191}
   - component: {fileID: 8211836232471361089}
   - component: {fileID: 8211836232471361088}
-  m_Layer: 0
+  - component: {fileID: 157504083}
+  - component: {fileID: 157504084}
+  m_Layer: 11
   m_Name: Porte.058
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4627,7 +4860,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471361088
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4642,6 +4875,37 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1581414755383129441, guid: 78ade05d8866c8c47abaaa061572cf44, type: 3}
+--- !u!95 &157504083
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837133416505180147}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b2d62ef901845c34f903c4f9c6fc3c0f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &157504084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837133416505180147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07a257d1f2e64ae4eb31e31d81c48b40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1842589304909418164
 GameObject:
   m_ObjectHideFlags: 0
@@ -4655,7 +4919,7 @@ GameObject:
   - component: {fileID: 4749717160952269560}
   - component: {fileID: 8211836232471360945}
   - component: {fileID: 8211836232471360944}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Porte.014
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4740,7 +5004,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360944
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4768,7 +5032,7 @@ GameObject:
   - component: {fileID: 8420132557425533452}
   - component: {fileID: 8211836232471360859}
   - component: {fileID: 8211836232471360858}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.044
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4853,7 +5117,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360858
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4881,7 +5145,7 @@ GameObject:
   - component: {fileID: 6298951113975321424}
   - component: {fileID: 8211836232471360755}
   - component: {fileID: 8211836232471360754}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Batis.015
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4966,7 +5230,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360754
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4994,7 +5258,7 @@ GameObject:
   - component: {fileID: 93681782081014565}
   - component: {fileID: 8211836232471360905}
   - component: {fileID: 8211836232471360904}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Porte.022
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5079,7 +5343,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360904
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5107,7 +5371,7 @@ GameObject:
   - component: {fileID: 7719091057251587016}
   - component: {fileID: 8211836232471360861}
   - component: {fileID: 8211836232471360860}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.045
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5192,7 +5456,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360860
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5220,7 +5484,7 @@ GameObject:
   - component: {fileID: 5843825831916822943}
   - component: {fileID: 8211836232471360767}
   - component: {fileID: 8211836232471360766}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Batis.013
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5305,7 +5569,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360766
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5333,7 +5597,9 @@ GameObject:
   - component: {fileID: 5406998159132699802}
   - component: {fileID: 8211836232471361101}
   - component: {fileID: 8211836232471361100}
-  m_Layer: 0
+  - component: {fileID: 1250612636}
+  - component: {fileID: 1250612637}
+  m_Layer: 11
   m_Name: Porte.056
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5419,7 +5685,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471361100
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5434,6 +5700,37 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -8976319792869707206, guid: 78ade05d8866c8c47abaaa061572cf44, type: 3}
+--- !u!95 &1250612636
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922765562819292874}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fe6ad98e777f07d4eba644983b89b5d6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1250612637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922765562819292874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07a257d1f2e64ae4eb31e31d81c48b40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1950832066807524658
 GameObject:
   m_ObjectHideFlags: 0
@@ -5447,7 +5744,7 @@ GameObject:
   - component: {fileID: 3690822601735106424}
   - component: {fileID: 8211836232471360675}
   - component: {fileID: 8211836232471360674}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Batis.043
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5532,7 +5829,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360674
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5560,7 +5857,7 @@ GameObject:
   - component: {fileID: 2629967053181620653}
   - component: {fileID: 8211836232471360897}
   - component: {fileID: 8211836232471360896}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Porte.026
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5645,7 +5942,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360896
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5673,7 +5970,7 @@ GameObject:
   - component: {fileID: 6689824265824899237}
   - component: {fileID: 8211836232471360961}
   - component: {fileID: 8211836232471360960}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cube.035
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5758,7 +6055,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360960
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5786,7 +6083,7 @@ GameObject:
   - component: {fileID: 3605177277980765841}
   - component: {fileID: 8211836232471360933}
   - component: {fileID: 8211836232471360932}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Porte
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5871,7 +6168,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360932
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5899,7 +6196,9 @@ GameObject:
   - component: {fileID: 3043791848356011100}
   - component: {fileID: 8211836232471361147}
   - component: {fileID: 8211836232471361146}
-  m_Layer: 0
+  - component: {fileID: 1485513001}
+  - component: {fileID: 1485513002}
+  m_Layer: 11
   m_Name: Porte.047
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5913,13 +6212,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1996301098775907436}
-  m_LocalRotation: {x: -0.5, y: 0.5, z: 0.49999997, w: 0.50000006}
+  m_LocalRotation: {x: 0.5, y: 0.5, z: 0.5, w: -0.5}
   m_LocalPosition: {x: 12.485872, y: 4.301055, z: -2.1707628}
   m_LocalScale: {x: -0.026942275, y: -0.0116801, z: -0.01255944}
   m_Children: []
   m_Father: {fileID: 8537968334889439370}
   m_RootOrder: 195
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 180, z: 90}
 --- !u!33 &3281764277739884068
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -5985,7 +6284,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471361146
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6000,6 +6299,37 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 1062255621031496424, guid: 78ade05d8866c8c47abaaa061572cf44, type: 3}
+--- !u!95 &1485513001
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996301098775907436}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b2d62ef901845c34f903c4f9c6fc3c0f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1485513002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996301098775907436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07a257d1f2e64ae4eb31e31d81c48b40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1999609819388922240
 GameObject:
   m_ObjectHideFlags: 0
@@ -6013,7 +6343,7 @@ GameObject:
   - component: {fileID: 7711931476772252796}
   - component: {fileID: 8211836232471360781}
   - component: {fileID: 8211836232471360780}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.069
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6098,7 +6428,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360780
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6126,7 +6456,7 @@ GameObject:
   - component: {fileID: 5668390498078122660}
   - component: {fileID: 8211836232471360881}
   - component: {fileID: 8211836232471360880}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6211,7 +6541,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360880
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6239,7 +6569,7 @@ GameObject:
   - component: {fileID: 3536102675558198583}
   - component: {fileID: 8211836232471360687}
   - component: {fileID: 8211836232471360686}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Batis.041
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6324,7 +6654,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360686
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6352,7 +6682,7 @@ GameObject:
   - component: {fileID: 1309587877638487292}
   - component: {fileID: 8211836232471360669}
   - component: {fileID: 8211836232471360668}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: BucGiang21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6437,7 +6767,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360668
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6465,7 +6795,7 @@ GameObject:
   - component: {fileID: 1931121090664816738}
   - component: {fileID: 8211836232471360769}
   - component: {fileID: 8211836232471360768}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.071
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6550,7 +6880,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360768
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6578,7 +6908,7 @@ GameObject:
   - component: {fileID: 3304468053018720162}
   - component: {fileID: 8211836232471360775}
   - component: {fileID: 8211836232471360774}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.074
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6663,7 +6993,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360774
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6691,7 +7021,7 @@ GameObject:
   - component: {fileID: 7858999265757842048}
   - component: {fileID: 8211836232471360673}
   - component: {fileID: 8211836232471360672}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Batis.042
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6776,7 +7106,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360672
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6804,7 +7134,7 @@ GameObject:
   - component: {fileID: 217331989746306986}
   - component: {fileID: 8211836232471360763}
   - component: {fileID: 8211836232471360762}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Batis.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6889,7 +7219,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360762
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6917,7 +7247,7 @@ GameObject:
   - component: {fileID: 5510061796036304827}
   - component: {fileID: 8211836232471361007}
   - component: {fileID: 8211836232471361006}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cube.015
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7002,7 +7332,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471361006
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7030,7 +7360,7 @@ GameObject:
   - component: {fileID: 4255648106966082489}
   - component: {fileID: 8211836232471360853}
   - component: {fileID: 8211836232471360852}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.049
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7115,7 +7445,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360852
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7143,7 +7473,7 @@ GameObject:
   - component: {fileID: 4713165118729979622}
   - component: {fileID: 8211836232471361113}
   - component: {fileID: 8211836232471361112}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: ThangTren.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7228,7 +7558,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471361112
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7256,7 +7586,7 @@ GameObject:
   - component: {fileID: 7022102399807753211}
   - component: {fileID: 8211836232471360671}
   - component: {fileID: 8211836232471360670}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: BucGiang21.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7341,7 +7671,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360670
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7369,7 +7699,7 @@ GameObject:
   - component: {fileID: 5951417132755445192}
   - component: {fileID: 8211836232471360965}
   - component: {fileID: 8211836232471360964}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cube.037
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7454,7 +7784,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360964
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7482,7 +7812,7 @@ GameObject:
   - component: {fileID: 1653262292211698455}
   - component: {fileID: 8211836232471360683}
   - component: {fileID: 8211836232471360682}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Batis.039
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7567,7 +7897,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360682
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7595,7 +7925,7 @@ GameObject:
   - component: {fileID: 7690236124458800224}
   - component: {fileID: 8211836232471360815}
   - component: {fileID: 8211836232471360814}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.054
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7680,7 +8010,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360814
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7708,7 +8038,7 @@ GameObject:
   - component: {fileID: 2481439086253654580}
   - component: {fileID: 8211836232471361123}
   - component: {fileID: 8211836232471361122}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Porte.043
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7794,7 +8124,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471361122
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7822,7 +8152,7 @@ GameObject:
   - component: {fileID: 6827710751128663828}
   - component: {fileID: 8211836232471360981}
   - component: {fileID: 8211836232471360980}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mangtuong.019
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7870,7 +8200,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -3846018093981099296, guid: 78ade05d8866c8c47abaaa061572cf44, type: 3}
+  - {fileID: 2100000, guid: b10b11c1a392abf48acdfc7f7ead7922, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7907,7 +8237,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360980
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7935,7 +8265,7 @@ GameObject:
   - component: {fileID: 640289234574366373}
   - component: {fileID: 8211836232471360757}
   - component: {fileID: 8211836232471360756}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Batis.020
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8020,7 +8350,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360756
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8048,7 +8378,7 @@ GameObject:
   - component: {fileID: 7280684121621602157}
   - component: {fileID: 8211836232471360985}
   - component: {fileID: 8211836232471360984}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cube.039
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8133,7 +8463,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360984
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8161,7 +8491,7 @@ GameObject:
   - component: {fileID: 6207802684158019901}
   - component: {fileID: 8211836232471360735}
   - component: {fileID: 8211836232471360734}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Batis.033
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8246,7 +8576,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360734
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8274,7 +8604,7 @@ GameObject:
   - component: {fileID: 8826238435038947219}
   - component: {fileID: 8211836232471360643}
   - component: {fileID: 8211836232471360642}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bowl.026
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8359,7 +8689,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360642
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8387,7 +8717,7 @@ GameObject:
   - component: {fileID: 8615373107752961462}
   - component: {fileID: 8211836232471361019}
   - component: {fileID: 8211836232471361018}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cube.022
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8472,7 +8802,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471361018
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8500,7 +8830,7 @@ GameObject:
   - component: {fileID: 5900185236055204219}
   - component: {fileID: 8211836232471360641}
   - component: {fileID: 8211836232471360640}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bowl.025
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8585,7 +8915,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360640
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8613,7 +8943,9 @@ GameObject:
   - component: {fileID: 1863342893890007866}
   - component: {fileID: 8211836232471361151}
   - component: {fileID: 8211836232471361150}
-  m_Layer: 0
+  - component: {fileID: 1483155570}
+  - component: {fileID: 1483155571}
+  m_Layer: 11
   m_Name: Porte.049
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8699,7 +9031,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471361150
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8714,6 +9046,37 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7942470778351189154, guid: 78ade05d8866c8c47abaaa061572cf44, type: 3}
+--- !u!95 &1483155570
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2965199866623895646}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fe6ad98e777f07d4eba644983b89b5d6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1483155571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2965199866623895646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07a257d1f2e64ae4eb31e31d81c48b40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3020941447668752923
 GameObject:
   m_ObjectHideFlags: 0
@@ -8727,7 +9090,7 @@ GameObject:
   - component: {fileID: 4291077883181765965}
   - component: {fileID: 8211836232471360969}
   - component: {fileID: 8211836232471360968}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cube.031
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8812,7 +9175,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360968
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8840,7 +9203,7 @@ GameObject:
   - component: {fileID: 3022349962770920069}
   - component: {fileID: 8211836232471360729}
   - component: {fileID: 8211836232471360728}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Batis.030
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8925,7 +9288,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360728
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8953,7 +9316,7 @@ GameObject:
   - component: {fileID: 5315984938832065217}
   - component: {fileID: 8211836232471360805}
   - component: {fileID: 8211836232471360804}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.057
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9038,7 +9401,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360804
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9066,7 +9429,7 @@ GameObject:
   - component: {fileID: 7041964075337952076}
   - component: {fileID: 8211836232471360983}
   - component: {fileID: 8211836232471360982}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mangtuong.020
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9114,7 +9477,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -3846018093981099296, guid: 78ade05d8866c8c47abaaa061572cf44, type: 3}
+  - {fileID: 2100000, guid: b10b11c1a392abf48acdfc7f7ead7922, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9151,7 +9514,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360982
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9179,7 +9542,7 @@ GameObject:
   - component: {fileID: 7560477955879600266}
   - component: {fileID: 8211836232471360841}
   - component: {fileID: 8211836232471360840}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9264,7 +9627,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360840
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9292,7 +9655,7 @@ GameObject:
   - component: {fileID: 3196127468612866387}
   - component: {fileID: 8211836232471360963}
   - component: {fileID: 8211836232471360962}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cube.036
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9340,7 +9703,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -8274133419916619345, guid: 78ade05d8866c8c47abaaa061572cf44, type: 3}
+  - {fileID: 2100000, guid: d90819ad7b63c98419b8a8aed79b9fd0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9377,7 +9740,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360962
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9405,7 +9768,7 @@ GameObject:
   - component: {fileID: 8418233640209784141}
   - component: {fileID: 8211836232471360935}
   - component: {fileID: 8211836232471360934}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Porte.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9490,7 +9853,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360934
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9518,7 +9881,7 @@ GameObject:
   - component: {fileID: 1584952380739960441}
   - component: {fileID: 8211836232471360697}
   - component: {fileID: 8211836232471360696}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bowl.007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9603,7 +9966,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360696
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9631,7 +9994,7 @@ GameObject:
   - component: {fileID: 5788657895839306787}
   - component: {fileID: 8211836232471360743}
   - component: {fileID: 8211836232471360742}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Batis.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9716,7 +10079,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360742
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9744,7 +10107,7 @@ GameObject:
   - component: {fileID: 1501910708355801362}
   - component: {fileID: 8211836232471360707}
   - component: {fileID: 8211836232471360706}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Batis.027
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9829,7 +10192,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360706
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9857,7 +10220,7 @@ GameObject:
   - component: {fileID: 5296140441548006311}
   - component: {fileID: 8211836232471361001}
   - component: {fileID: 8211836232471361000}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.083
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9942,7 +10305,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471361000
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9970,7 +10333,7 @@ GameObject:
   - component: {fileID: 8667020683109075113}
   - component: {fileID: 8211836232471360695}
   - component: {fileID: 8211836232471360694}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bowl.019
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10055,7 +10418,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360694
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10083,7 +10446,7 @@ GameObject:
   - component: {fileID: 3763161876218209267}
   - component: {fileID: 8211836232471360885}
   - component: {fileID: 8211836232471360884}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10168,7 +10531,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360884
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10196,7 +10559,7 @@ GameObject:
   - component: {fileID: 1738819251212433655}
   - component: {fileID: 8211836232471360843}
   - component: {fileID: 8211836232471360842}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10281,7 +10644,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360842
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10309,7 +10672,9 @@ GameObject:
   - component: {fileID: 6714555559749835840}
   - component: {fileID: 8211836232471361135}
   - component: {fileID: 8211836232471361134}
-  m_Layer: 0
+  - component: {fileID: 193475205}
+  - component: {fileID: 193475206}
+  m_Layer: 11
   m_Name: Porte.041
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10395,7 +10760,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471361134
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10410,6 +10775,37 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8262705600466943900, guid: 78ade05d8866c8c47abaaa061572cf44, type: 3}
+--- !u!95 &193475205
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3537839072619303933}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fe6ad98e777f07d4eba644983b89b5d6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &193475206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3537839072619303933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07a257d1f2e64ae4eb31e31d81c48b40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3671884140110216806
 GameObject:
   m_ObjectHideFlags: 0
@@ -10423,7 +10819,7 @@ GameObject:
   - component: {fileID: 2904507888963787382}
   - component: {fileID: 8211836232471360647}
   - component: {fileID: 8211836232471360646}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bowl.028
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10508,7 +10904,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360646
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10536,7 +10932,7 @@ GameObject:
   - component: {fileID: 8470105075885603478}
   - component: {fileID: 8211836232471360659}
   - component: {fileID: 8211836232471360658}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: BucGiang22.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10621,7 +11017,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360658
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10649,7 +11045,7 @@ GameObject:
   - component: {fileID: 8549666938968486024}
   - component: {fileID: 8211836232471360787}
   - component: {fileID: 8211836232471360786}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.080
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10734,7 +11130,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360786
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10762,7 +11158,7 @@ GameObject:
   - component: {fileID: 8231596509899423193}
   - component: {fileID: 8211836232471360953}
   - component: {fileID: 8211836232471360952}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Porte.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10847,7 +11243,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360952
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10875,7 +11271,7 @@ GameObject:
   - component: {fileID: 8234976679882561687}
   - component: {fileID: 8211836232471360955}
   - component: {fileID: 8211836232471360954}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Porte.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10960,7 +11356,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360954
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10988,7 +11384,7 @@ GameObject:
   - component: {fileID: 4505567533338633128}
   - component: {fileID: 8211836232471360795}
   - component: {fileID: 8211836232471360794}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.076
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11073,7 +11469,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360794
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11101,7 +11497,7 @@ GameObject:
   - component: {fileID: 7182043484510631329}
   - component: {fileID: 8211836232471360799}
   - component: {fileID: 8211836232471360798}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.078
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11186,7 +11582,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360798
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11214,7 +11610,7 @@ GameObject:
   - component: {fileID: 19416145305353827}
   - component: {fileID: 8211836232471360941}
   - component: {fileID: 8211836232471360940}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Nhavs.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11262,7 +11658,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -3846018093981099296, guid: 78ade05d8866c8c47abaaa061572cf44, type: 3}
+  - {fileID: 2100000, guid: b10b11c1a392abf48acdfc7f7ead7922, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11299,7 +11695,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360940
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11327,7 +11723,7 @@ GameObject:
   - component: {fileID: 6694913993213636051}
   - component: {fileID: 8211836232471360851}
   - component: {fileID: 8211836232471360850}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.048
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11412,7 +11808,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360850
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11440,7 +11836,7 @@ GameObject:
   - component: {fileID: 8021839451427996768}
   - component: {fileID: 8211836232471360713}
   - component: {fileID: 8211836232471360712}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Batis.022
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11525,7 +11921,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360712
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11553,7 +11949,7 @@ GameObject:
   - component: {fileID: 1487161892367284274}
   - component: {fileID: 8211836232471360833}
   - component: {fileID: 8211836232471360832}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11638,7 +12034,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360832
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11666,7 +12062,7 @@ GameObject:
   - component: {fileID: 4928916579915144221}
   - component: {fileID: 8211836232471360993}
   - component: {fileID: 8211836232471360992}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cube.016
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11751,7 +12147,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360992
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11779,7 +12175,7 @@ GameObject:
   - component: {fileID: 8514129974060133189}
   - component: {fileID: 8211836232471360693}
   - component: {fileID: 8211836232471360692}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bowl.017
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11864,7 +12260,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360692
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11892,7 +12288,7 @@ GameObject:
   - component: {fileID: 8260632085039752681}
   - component: {fileID: 8211836232471360899}
   - component: {fileID: 8211836232471360898}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Porte.027
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11977,7 +12373,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360898
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12005,7 +12401,7 @@ GameObject:
   - component: {fileID: 3468325066801923348}
   - component: {fileID: 8211836232471360661}
   - component: {fileID: 8211836232471360660}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: BucGiang23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12090,7 +12486,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360660
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12118,7 +12514,7 @@ GameObject:
   - component: {fileID: 3449109763659713295}
   - component: {fileID: 8211836232471360681}
   - component: {fileID: 8211836232471360680}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Batis.038
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12203,7 +12599,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360680
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12231,7 +12627,7 @@ GameObject:
   - component: {fileID: 2970722466157576742}
   - component: {fileID: 8211836232471360863}
   - component: {fileID: 8211836232471360862}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.046
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12316,7 +12712,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360862
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12344,7 +12740,7 @@ GameObject:
   - component: {fileID: 334496007722003679}
   - component: {fileID: 8211836232471360811}
   - component: {fileID: 8211836232471360810}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.052
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12429,7 +12825,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360810
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12457,7 +12853,7 @@ GameObject:
   - component: {fileID: 1745795812646931471}
   - component: {fileID: 8211836232471360837}
   - component: {fileID: 8211836232471360836}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.021
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12542,7 +12938,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360836
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12570,7 +12966,7 @@ GameObject:
   - component: {fileID: 1336603820725725007}
   - component: {fileID: 8211836232471360801}
   - component: {fileID: 8211836232471360800}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.055
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12655,7 +13051,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360800
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12683,7 +13079,7 @@ GameObject:
   - component: {fileID: 8432478275453659455}
   - component: {fileID: 8211836232471361015}
   - component: {fileID: 8211836232471361014}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cube.030
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12768,7 +13164,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471361014
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12796,7 +13192,9 @@ GameObject:
   - component: {fileID: 4891836744977866400}
   - component: {fileID: 8211836232471361125}
   - component: {fileID: 8211836232471361124}
-  m_Layer: 0
+  - component: {fileID: 870771441}
+  - component: {fileID: 870771442}
+  m_Layer: 11
   m_Name: Porte.044
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12810,13 +13208,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4589306125484382314}
-  m_LocalRotation: {x: 0.5, y: -0.49999997, z: 0.5, w: 0.5}
+  m_LocalRotation: {x: 0.5844872, y: -0.3979632, z: 0.3979632, w: 0.5844872}
   m_LocalPosition: {x: 14.004697, y: 4.301055, z: 1.8231896}
   m_LocalScale: {x: 0.026942275, y: 0.0116801, z: 0.01255944}
   m_Children: []
   m_Father: {fileID: 8537968334889439370}
   m_RootOrder: 192
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 21.5, z: 90}
 --- !u!33 &8368550760517482411
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -12882,7 +13280,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471361124
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12897,6 +13295,37 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8433579629435577840, guid: 78ade05d8866c8c47abaaa061572cf44, type: 3}
+--- !u!95 &870771441
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4589306125484382314}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fe6ad98e777f07d4eba644983b89b5d6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &870771442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4589306125484382314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07a257d1f2e64ae4eb31e31d81c48b40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4674601008994998799
 GameObject:
   m_ObjectHideFlags: 0
@@ -12910,7 +13339,7 @@ GameObject:
   - component: {fileID: 943983432063851726}
   - component: {fileID: 8211836232471360931}
   - component: {fileID: 8211836232471360930}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Nhavs01.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12995,7 +13424,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360930
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13023,7 +13452,7 @@ GameObject:
   - component: {fileID: 2739633995720652643}
   - component: {fileID: 8211836232471360825}
   - component: {fileID: 8211836232471360824}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.059
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13108,7 +13537,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360824
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13136,7 +13565,7 @@ GameObject:
   - component: {fileID: 1268911688451762495}
   - component: {fileID: 8211836232471361013}
   - component: {fileID: 8211836232471361012}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cube.029
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13184,7 +13613,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -8274133419916619345, guid: 78ade05d8866c8c47abaaa061572cf44, type: 3}
+  - {fileID: 2100000, guid: d90819ad7b63c98419b8a8aed79b9fd0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13221,7 +13650,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471361012
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13249,7 +13678,7 @@ GameObject:
   - component: {fileID: 345951429183491190}
   - component: {fileID: 8211836232471360887}
   - component: {fileID: 8211836232471360886}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13334,7 +13763,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360886
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13362,7 +13791,7 @@ GameObject:
   - component: {fileID: 2379901465718657426}
   - component: {fileID: 8211836232471360703}
   - component: {fileID: 8211836232471360702}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bowl.011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13447,7 +13876,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360702
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13475,7 +13904,7 @@ GameObject:
   - component: {fileID: 3570989585513771938}
   - component: {fileID: 8211836232471360923}
   - component: {fileID: 8211836232471360922}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Porte.031
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13560,7 +13989,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360922
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13588,7 +14017,7 @@ GameObject:
   - component: {fileID: 6796582945159089709}
   - component: {fileID: 8211836232471361115}
   - component: {fileID: 8211836232471361114}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: ThangTren.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13673,7 +14102,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471361114
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13701,7 +14130,7 @@ GameObject:
   - component: {fileID: 3582110425630945083}
   - component: {fileID: 8211836232471360791}
   - component: {fileID: 8211836232471360790}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.082
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13786,7 +14215,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360790
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13814,7 +14243,7 @@ GameObject:
   - component: {fileID: 4186851432866521239}
   - component: {fileID: 8211836232471361131}
   - component: {fileID: 8211836232471361130}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Porte.039
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13900,7 +14329,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471361130
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13928,7 +14357,7 @@ GameObject:
   - component: {fileID: 4140106515119246549}
   - component: {fileID: 8211836232471360907}
   - component: {fileID: 8211836232471360906}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Porte.023
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14013,7 +14442,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360906
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14041,7 +14470,7 @@ GameObject:
   - component: {fileID: 4227672702323411266}
   - component: {fileID: 8211836232471360701}
   - component: {fileID: 8211836232471360700}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bowl.009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14126,7 +14555,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360700
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14154,7 +14583,9 @@ GameObject:
   - component: {fileID: 1529144583415520213}
   - component: {fileID: 8211836232471361145}
   - component: {fileID: 8211836232471361144}
-  m_Layer: 0
+  - component: {fileID: 1219521098}
+  - component: {fileID: 1219521099}
+  m_Layer: 11
   m_Name: Porte.046
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14168,13 +14599,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4951576975395204911}
-  m_LocalRotation: {x: 0.5, y: -0.49999997, z: 0.5, w: 0.5}
+  m_LocalRotation: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
   m_LocalPosition: {x: 14.004697, y: 4.301055, z: -2.172866}
   m_LocalScale: {x: 0.026942275, y: 0.0116801, z: 0.01255944}
   m_Children: []
   m_Father: {fileID: 8537968334889439370}
   m_RootOrder: 194
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 180, z: 90}
 --- !u!33 &1873275541368063241
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -14240,7 +14671,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471361144
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14255,6 +14686,37 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -5373768357596000121, guid: 78ade05d8866c8c47abaaa061572cf44, type: 3}
+--- !u!95 &1219521098
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4951576975395204911}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b2d62ef901845c34f903c4f9c6fc3c0f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1219521099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4951576975395204911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07a257d1f2e64ae4eb31e31d81c48b40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4996427281643241839
 GameObject:
   m_ObjectHideFlags: 0
@@ -14268,7 +14730,7 @@ GameObject:
   - component: {fileID: 6098997974060892456}
   - component: {fileID: 8211836232471360685}
   - component: {fileID: 8211836232471360684}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Batis.040
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14353,7 +14815,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360684
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14381,7 +14843,7 @@ GameObject:
   - component: {fileID: 8592035237277441368}
   - component: {fileID: 8211836232471361093}
   - component: {fileID: 8211836232471361092}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: ThangTren.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14466,7 +14928,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471361092
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14494,7 +14956,7 @@ GameObject:
   - component: {fileID: 3589212866990120808}
   - component: {fileID: 8211836232471360857}
   - component: {fileID: 8211836232471360856}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.043
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14579,7 +15041,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360856
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14607,7 +15069,7 @@ GameObject:
   - component: {fileID: 2839554928628066897}
   - component: {fileID: 8211836232471360699}
   - component: {fileID: 8211836232471360698}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bowl.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14692,7 +15154,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360698
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14720,7 +15182,7 @@ GameObject:
   - component: {fileID: 1462565135323307159}
   - component: {fileID: 8211836232471360753}
   - component: {fileID: 8211836232471360752}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Batis.014
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14805,7 +15267,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360752
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14833,7 +15295,7 @@ GameObject:
   - component: {fileID: 8349514247727789145}
   - component: {fileID: 8211836232471361129}
   - component: {fileID: 8211836232471361128}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Porte.038
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14919,7 +15381,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471361128
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14947,7 +15409,7 @@ GameObject:
   - component: {fileID: 7359596827052442370}
   - component: {fileID: 8211836232471360959}
   - component: {fileID: 8211836232471360958}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Porte.013
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15032,7 +15494,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360958
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15060,7 +15522,7 @@ GameObject:
   - component: {fileID: 8432710809772559549}
   - component: {fileID: 8211836232471360927}
   - component: {fileID: 8211836232471360926}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Porte.033
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15145,7 +15607,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360926
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15173,7 +15635,7 @@ GameObject:
   - component: {fileID: 1522259409571647814}
   - component: {fileID: 8211836232471360947}
   - component: {fileID: 8211836232471360946}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Porte.015
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15258,7 +15720,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360946
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15286,7 +15748,7 @@ GameObject:
   - component: {fileID: 7180070387862569857}
   - component: {fileID: 8211836232471360689}
   - component: {fileID: 8211836232471360688}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bowl.013
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15371,7 +15833,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360688
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15399,7 +15861,7 @@ GameObject:
   - component: {fileID: 1702669214204112012}
   - component: {fileID: 8211836232471360679}
   - component: {fileID: 8211836232471360678}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bowl.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15484,7 +15946,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360678
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15512,7 +15974,7 @@ GameObject:
   - component: {fileID: 1668001521110393983}
   - component: {fileID: 8211836232471360705}
   - component: {fileID: 8211836232471360704}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Batis.026
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15597,7 +16059,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360704
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15625,7 +16087,7 @@ GameObject:
   - component: {fileID: 7738445797822913644}
   - component: {fileID: 8211836232471360999}
   - component: {fileID: 8211836232471360998}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cube.019
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15710,7 +16172,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360998
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15738,7 +16200,7 @@ GameObject:
   - component: {fileID: 5734428107800721883}
   - component: {fileID: 8211836232471360951}
   - component: {fileID: 8211836232471360950}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Porte.021
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15823,7 +16285,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360950
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15851,7 +16313,9 @@ GameObject:
   - component: {fileID: 5271269262480487422}
   - component: {fileID: 8211836232471361127}
   - component: {fileID: 8211836232471361126}
-  m_Layer: 0
+  - component: {fileID: 40336822}
+  - component: {fileID: 40336823}
+  m_Layer: 11
   m_Name: Porte.045
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15937,7 +16401,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471361126
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15952,6 +16416,37 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 1637639403232885770, guid: 78ade05d8866c8c47abaaa061572cf44, type: 3}
+--- !u!95 &40336822
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5409822891540533593}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fe6ad98e777f07d4eba644983b89b5d6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &40336823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5409822891540533593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07a257d1f2e64ae4eb31e31d81c48b40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5417600703715509595
 GameObject:
   m_ObjectHideFlags: 0
@@ -15965,7 +16460,7 @@ GameObject:
   - component: {fileID: 5313517847008594131}
   - component: {fileID: 8211836232471360785}
   - component: {fileID: 8211836232471360784}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.079
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16050,7 +16545,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360784
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16078,7 +16573,7 @@ GameObject:
   - component: {fileID: 7397523710319177218}
   - component: {fileID: 8211836232471360873}
   - component: {fileID: 8211836232471360872}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: BucGiang24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16163,7 +16658,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360872
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16191,7 +16686,7 @@ GameObject:
   - component: {fileID: 1125519757323233397}
   - component: {fileID: 8211836232471360677}
   - component: {fileID: 8211836232471360676}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bowl.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16276,7 +16771,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360676
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16304,7 +16799,7 @@ GameObject:
   - component: {fileID: 7626614647061589605}
   - component: {fileID: 8211836232471360997}
   - component: {fileID: 8211836232471360996}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cube.018
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16389,7 +16884,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360996
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16417,7 +16912,7 @@ GameObject:
   - component: {fileID: 6085015772072583436}
   - component: {fileID: 8211836232471360915}
   - component: {fileID: 8211836232471360914}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Porte.035
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16502,7 +16997,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360914
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16530,7 +17025,7 @@ GameObject:
   - component: {fileID: 2000500328584415121}
   - component: {fileID: 8211836232471360895}
   - component: {fileID: 8211836232471360894}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16615,7 +17110,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360894
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16643,7 +17138,7 @@ GameObject:
   - component: {fileID: 2805303374458351766}
   - component: {fileID: 8211836232471361017}
   - component: {fileID: 8211836232471361016}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cube.020
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16728,7 +17223,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471361016
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16756,7 +17251,7 @@ GameObject:
   - component: {fileID: 648708896032933217}
   - component: {fileID: 8211836232471360771}
   - component: {fileID: 8211836232471360770}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.072
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16841,7 +17336,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360770
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16869,7 +17364,7 @@ GameObject:
   - component: {fileID: 2365248184384937296}
   - component: {fileID: 8211836232471360725}
   - component: {fileID: 8211836232471360724}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Batis.036
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16954,7 +17449,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360724
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16982,7 +17477,7 @@ GameObject:
   - component: {fileID: 7419739156843370883}
   - component: {fileID: 8211836232471360937}
   - component: {fileID: 8211836232471360936}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mangtuong.021
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17030,7 +17525,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b10b11c1a392abf48acdfc7f7ead7922, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -17067,7 +17562,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360936
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17095,7 +17590,7 @@ GameObject:
   - component: {fileID: 2503972285859354065}
   - component: {fileID: 8211836232471360645}
   - component: {fileID: 8211836232471360644}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bowl.027
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17180,7 +17675,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360644
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17208,7 +17703,7 @@ GameObject:
   - component: {fileID: 563164016552139461}
   - component: {fileID: 8211836232471360665}
   - component: {fileID: 8211836232471360664}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bowl.029
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17293,7 +17788,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360664
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17321,7 +17816,7 @@ GameObject:
   - component: {fileID: 3946800328331042584}
   - component: {fileID: 8211836232471360839}
   - component: {fileID: 8211836232471360838}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.028
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17406,7 +17901,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360838
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17434,7 +17929,7 @@ GameObject:
   - component: {fileID: 7377062734588689884}
   - component: {fileID: 8211836232471360855}
   - component: {fileID: 8211836232471360854}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.050
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17519,7 +18014,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360854
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17547,7 +18042,7 @@ GameObject:
   - component: {fileID: 3834070680230566404}
   - component: {fileID: 8211836232471360949}
   - component: {fileID: 8211836232471360948}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Porte.020
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17632,7 +18127,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360948
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17660,7 +18155,7 @@ GameObject:
   - component: {fileID: 8937801298252844538}
   - component: {fileID: 8211836232471360871}
   - component: {fileID: 8211836232471360870}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cabinet1_Door.010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17746,7 +18241,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360870
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17774,7 +18269,7 @@ GameObject:
   - component: {fileID: 4291096650258590130}
   - component: {fileID: 8211836232471360813}
   - component: {fileID: 8211836232471360812}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.053
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17859,7 +18354,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360812
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17887,7 +18382,7 @@ GameObject:
   - component: {fileID: 3482338816243771077}
   - component: {fileID: 8211836232471361121}
   - component: {fileID: 8211836232471361120}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Porte.042
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17973,7 +18468,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471361120
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18001,7 +18496,7 @@ GameObject:
   - component: {fileID: 6336847101108770710}
   - component: {fileID: 8211836232471360797}
   - component: {fileID: 8211836232471360796}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.077
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18086,7 +18581,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360796
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18114,7 +18609,7 @@ GameObject:
   - component: {fileID: 3350013283171731558}
   - component: {fileID: 8211836232471360889}
   - component: {fileID: 8211836232471360888}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cabinet1_Door.011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18200,7 +18695,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360888
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18228,7 +18723,7 @@ GameObject:
   - component: {fileID: 7073314481694629573}
   - component: {fileID: 8211836232471361009}
   - component: {fileID: 8211836232471361008}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cube.025
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18313,7 +18808,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471361008
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18341,7 +18836,7 @@ GameObject:
   - component: {fileID: 7790998216943656611}
   - component: {fileID: 8211836232471360849}
   - component: {fileID: 8211836232471360848}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.047
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18426,7 +18921,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360848
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18454,7 +18949,7 @@ GameObject:
   - component: {fileID: 8396738415886241904}
   - component: {fileID: 8211836232471360723}
   - component: {fileID: 8211836232471360722}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Batis.035
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18539,7 +19034,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360722
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18567,7 +19062,7 @@ GameObject:
   - component: {fileID: 1371287888664713622}
   - component: {fileID: 8211836232471360803}
   - component: {fileID: 8211836232471360802}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.056
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18652,7 +19147,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360802
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18680,7 +19175,7 @@ GameObject:
   - component: {fileID: 348677166089654707}
   - component: {fileID: 8211836232471360793}
   - component: {fileID: 8211836232471360792}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.075
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18765,7 +19260,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360792
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18793,7 +19288,7 @@ GameObject:
   - component: {fileID: 206022941543911778}
   - component: {fileID: 8211836232471360733}
   - component: {fileID: 8211836232471360732}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Batis.032
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18878,7 +19373,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360732
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18906,7 +19401,7 @@ GameObject:
   - component: {fileID: 3769935867054188480}
   - component: {fileID: 8211836232471360715}
   - component: {fileID: 8211836232471360714}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Batis.023
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18991,7 +19486,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360714
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19019,7 +19514,9 @@ GameObject:
   - component: {fileID: 6560554860345569774}
   - component: {fileID: 8211836232471361133}
   - component: {fileID: 8211836232471361132}
-  m_Layer: 0
+  - component: {fileID: 656866254}
+  - component: {fileID: 656866255}
+  m_Layer: 11
   m_Name: Porte.040
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19105,7 +19602,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471361132
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19120,6 +19617,37 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -6429850123703186461, guid: 78ade05d8866c8c47abaaa061572cf44, type: 3}
+--- !u!95 &656866254
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7024858180674113564}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fe6ad98e777f07d4eba644983b89b5d6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &656866255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7024858180674113564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07a257d1f2e64ae4eb31e31d81c48b40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7040113453203704410
 GameObject:
   m_ObjectHideFlags: 0
@@ -19133,7 +19661,7 @@ GameObject:
   - component: {fileID: 7573907109891899210}
   - component: {fileID: 8211836232471360691}
   - component: {fileID: 8211836232471360690}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bowl.015
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19218,7 +19746,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360690
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19246,7 +19774,7 @@ GameObject:
   - component: {fileID: 1157215845141261648}
   - component: {fileID: 8211836232471360989}
   - component: {fileID: 8211836232471360988}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mangtuong.015
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19294,7 +19822,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b10b11c1a392abf48acdfc7f7ead7922, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19331,7 +19859,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360988
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19359,7 +19887,7 @@ GameObject:
   - component: {fileID: 7161220274802143688}
   - component: {fileID: 8211836232471360909}
   - component: {fileID: 8211836232471360908}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Porte.024
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19444,7 +19972,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360908
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19472,7 +20000,7 @@ GameObject:
   - component: {fileID: 8242297088985353965}
   - component: {fileID: 8211836232471360979}
   - component: {fileID: 8211836232471360978}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mangtuong.018
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19520,7 +20048,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -3846018093981099296, guid: 78ade05d8866c8c47abaaa061572cf44, type: 3}
+  - {fileID: 2100000, guid: b10b11c1a392abf48acdfc7f7ead7922, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19557,7 +20085,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360978
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19585,7 +20113,7 @@ GameObject:
   - component: {fileID: 8208495145285958683}
   - component: {fileID: 8211836232471360655}
   - component: {fileID: 8211836232471360654}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bowl.024
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19670,7 +20198,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360654
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19698,7 +20226,7 @@ GameObject:
   - component: {fileID: 6242007552212278453}
   - component: {fileID: 8211836232471360921}
   - component: {fileID: 8211836232471360920}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Porte.030
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19783,7 +20311,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360920
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19811,7 +20339,7 @@ GameObject:
   - component: {fileID: 1770392760643370047}
   - component: {fileID: 8211836232471360809}
   - component: {fileID: 8211836232471360808}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.051
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19896,7 +20424,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360808
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19924,7 +20452,7 @@ GameObject:
   - component: {fileID: 8466691914834466003}
   - component: {fileID: 8211836232471361005}
   - component: {fileID: 8211836232471361004}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cube.014
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20009,7 +20537,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471361004
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20037,7 +20565,7 @@ GameObject:
   - component: {fileID: 8992698892830836260}
   - component: {fileID: 8211836232471361023}
   - component: {fileID: 8211836232471361022}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cube.024
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20122,7 +20650,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471361022
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20150,7 +20678,7 @@ GameObject:
   - component: {fileID: 190254308114015183}
   - component: {fileID: 8211836232471360875}
   - component: {fileID: 8211836232471360874}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: BucGiang24.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20235,7 +20763,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360874
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20263,7 +20791,7 @@ GameObject:
   - component: {fileID: 6995843677242365774}
   - component: {fileID: 8211836232471360877}
   - component: {fileID: 8211836232471360876}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cabinet1_Door.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20348,7 +20876,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360876
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20376,7 +20904,7 @@ GameObject:
   - component: {fileID: 9050964790341974930}
   - component: {fileID: 8211836232471360973}
   - component: {fileID: 8211836232471360972}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cube.033
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20461,7 +20989,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360972
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20489,7 +21017,7 @@ GameObject:
   - component: {fileID: 6641591361667862179}
   - component: {fileID: 8211836232471361003}
   - component: {fileID: 8211836232471361002}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.084
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20574,7 +21102,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471361002
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20602,7 +21130,7 @@ GameObject:
   - component: {fileID: 5646689012424201495}
   - component: {fileID: 8211836232471360653}
   - component: {fileID: 8211836232471360652}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bowl.023
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20687,7 +21215,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360652
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20715,7 +21243,7 @@ GameObject:
   - component: {fileID: 8007617117276934269}
   - component: {fileID: 8211836232471360883}
   - component: {fileID: 8211836232471360882}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20800,7 +21328,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360882
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20828,7 +21356,7 @@ GameObject:
   - component: {fileID: 6370719358919099903}
   - component: {fileID: 8211836232471360845}
   - component: {fileID: 8211836232471360844}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20913,7 +21441,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360844
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20941,7 +21469,7 @@ GameObject:
   - component: {fileID: 4697647926941883690}
   - component: {fileID: 8211836232471360891}
   - component: {fileID: 8211836232471360890}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cabinet1_Door.012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21027,7 +21555,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360890
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21055,7 +21583,7 @@ GameObject:
   - component: {fileID: 1924580320248140824}
   - component: {fileID: 8211836232471360865}
   - component: {fileID: 8211836232471360864}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cabinet1_Door.007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21140,7 +21668,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360864
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21168,7 +21696,7 @@ GameObject:
   - component: {fileID: 1212030877813300771}
   - component: {fileID: 8211836232471360831}
   - component: {fileID: 8211836232471360830}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.062
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21253,7 +21781,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360830
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21281,7 +21809,7 @@ GameObject:
   - component: {fileID: 7791214743509353650}
   - component: {fileID: 8211836232471360977}
   - component: {fileID: 8211836232471360976}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Mangtuong.017
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21329,7 +21857,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b10b11c1a392abf48acdfc7f7ead7922, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -21366,7 +21894,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360976
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21394,7 +21922,9 @@ GameObject:
   - component: {fileID: 2757277233089204512}
   - component: {fileID: 8211836232471360919}
   - component: {fileID: 8211836232471360918}
-  m_Layer: 0
+  - component: {fileID: 93482040}
+  - component: {fileID: 93482041}
+  m_Layer: 11
   m_Name: Porte.037
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21480,7 +22010,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360918
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21495,6 +22025,37 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 6701426851713408114, guid: 78ade05d8866c8c47abaaa061572cf44, type: 3}
+--- !u!95 &93482040
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7928352414871515840}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fe6ad98e777f07d4eba644983b89b5d6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &93482041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7928352414871515840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07a257d1f2e64ae4eb31e31d81c48b40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7944976030368645238
 GameObject:
   m_ObjectHideFlags: 0
@@ -21508,7 +22069,7 @@ GameObject:
   - component: {fileID: 4472228011428532142}
   - component: {fileID: 8211836232471360731}
   - component: {fileID: 8211836232471360730}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Batis.031
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21593,7 +22154,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360730
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21621,7 +22182,7 @@ GameObject:
   - component: {fileID: 147571478263132124}
   - component: {fileID: 8211836232471360867}
   - component: {fileID: 8211836232471360866}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cabinet1_Door.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21706,7 +22267,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360866
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21734,7 +22295,7 @@ GameObject:
   - component: {fileID: 1955961593664740504}
   - component: {fileID: 8211836232471360929}
   - component: {fileID: 8211836232471360928}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Nhavs01.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21819,7 +22380,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360928
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21847,7 +22408,9 @@ GameObject:
   - component: {fileID: 4460339851259874644}
   - component: {fileID: 8211836232471361099}
   - component: {fileID: 8211836232471361098}
-  m_Layer: 0
+  - component: {fileID: 1821254832}
+  - component: {fileID: 1821254833}
+  m_Layer: 11
   m_Name: Porte.055
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21933,7 +22496,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471361098
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21948,6 +22511,37 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -8725168827909460702, guid: 78ade05d8866c8c47abaaa061572cf44, type: 3}
+--- !u!95 &1821254832
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8108392565668337387}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b2d62ef901845c34f903c4f9c6fc3c0f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1821254833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8108392565668337387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07a257d1f2e64ae4eb31e31d81c48b40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8132682770907057128
 GameObject:
   m_ObjectHideFlags: 0
@@ -21961,7 +22555,7 @@ GameObject:
   - component: {fileID: 7684202458121196730}
   - component: {fileID: 8211836232471360759}
   - component: {fileID: 8211836232471360758}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Batis.021
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22046,7 +22640,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360758
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22074,7 +22668,7 @@ GameObject:
   - component: {fileID: 1323956555328541763}
   - component: {fileID: 8211836232471360893}
   - component: {fileID: 8211836232471360892}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22159,7 +22753,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360892
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22187,7 +22781,9 @@ GameObject:
   - component: {fileID: 4348895310165998302}
   - component: {fileID: 8211836232471360917}
   - component: {fileID: 8211836232471360916}
-  m_Layer: 0
+  - component: {fileID: 1466077544}
+  - component: {fileID: 1466077545}
+  m_Layer: 11
   m_Name: Porte.036
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22273,7 +22869,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360916
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22288,6 +22884,37 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 6257362383235670999, guid: 78ade05d8866c8c47abaaa061572cf44, type: 3}
+--- !u!95 &1466077544
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8236831729340366545}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fe6ad98e777f07d4eba644983b89b5d6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1466077545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8236831729340366545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07a257d1f2e64ae4eb31e31d81c48b40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8252622227190276750
 GameObject:
   m_ObjectHideFlags: 0
@@ -22301,7 +22928,7 @@ GameObject:
   - component: {fileID: 8957579859892915552}
   - component: {fileID: 8211836232471360651}
   - component: {fileID: 8211836232471360650}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bowl.022
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22386,7 +23013,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360650
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22414,7 +23041,7 @@ GameObject:
   - component: {fileID: 7750384104254276674}
   - component: {fileID: 8211836232471360903}
   - component: {fileID: 8211836232471360902}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Porte.029
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22499,7 +23126,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360902
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22527,7 +23154,7 @@ GameObject:
   - component: {fileID: 6875970527212642547}
   - component: {fileID: 8211836232471360719}
   - component: {fileID: 8211836232471360718}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Batis.025
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22612,7 +23239,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360718
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22640,7 +23267,9 @@ GameObject:
   - component: {fileID: 5142150806531996051}
   - component: {fileID: 8211836232471361103}
   - component: {fileID: 8211836232471361102}
-  m_Layer: 0
+  - component: {fileID: 45074526}
+  - component: {fileID: 45074527}
+  m_Layer: 11
   m_Name: Porte.057
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22726,7 +23355,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471361102
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22741,6 +23370,37 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1875619514278577558, guid: 78ade05d8866c8c47abaaa061572cf44, type: 3}
+--- !u!95 &45074526
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8495426755227999271}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fe6ad98e777f07d4eba644983b89b5d6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &45074527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8495426755227999271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07a257d1f2e64ae4eb31e31d81c48b40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8533464714453733310
 GameObject:
   m_ObjectHideFlags: 0
@@ -22754,7 +23414,7 @@ GameObject:
   - component: {fileID: 303198798469502318}
   - component: {fileID: 8211836232471360709}
   - component: {fileID: 8211836232471360708}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Batis.028
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22839,7 +23499,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360708
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22867,7 +23527,7 @@ GameObject:
   - component: {fileID: 4743796132036557763}
   - component: {fileID: 8211836232471360975}
   - component: {fileID: 8211836232471360974}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cube.034
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22952,7 +23612,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360974
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22980,7 +23640,7 @@ GameObject:
   - component: {fileID: 4587271097499039428}
   - component: {fileID: 8211836232471360717}
   - component: {fileID: 8211836232471360716}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Batis.024
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23065,7 +23725,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360716
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23093,7 +23753,7 @@ GameObject:
   - component: {fileID: 2532179445502264312}
   - component: {fileID: 8211836232471360901}
   - component: {fileID: 8211836232471360900}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Porte.028
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23178,7 +23838,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360900
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23206,7 +23866,7 @@ GameObject:
   - component: {fileID: 4214094264943550960}
   - component: {fileID: 8211836232471360943}
   - component: {fileID: 8211836232471360942}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Nhavs.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23254,7 +23914,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b10b11c1a392abf48acdfc7f7ead7922, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -23291,7 +23951,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360942
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23319,7 +23979,7 @@ GameObject:
   - component: {fileID: 6011901016551361184}
   - component: {fileID: 8211836232471360761}
   - component: {fileID: 8211836232471360760}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Batis.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23404,7 +24064,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360760
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23432,7 +24092,7 @@ GameObject:
   - component: {fileID: 1350113956852609176}
   - component: {fileID: 8211836232471360711}
   - component: {fileID: 8211836232471360710}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Batis.029
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23517,7 +24177,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360710
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23545,7 +24205,7 @@ GameObject:
   - component: {fileID: 2480553500550546914}
   - component: {fileID: 8211836232471360911}
   - component: {fileID: 8211836232471360910}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Porte.025
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23630,7 +24290,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360910
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23654,7 +24314,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8537968334889439370}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Tang2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23900,7 +24560,7 @@ GameObject:
   - component: {fileID: 2435127908345095537}
   - component: {fileID: 8211836232471360807}
   - component: {fileID: 8211836232471360806}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.058
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23985,7 +24645,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360806
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24013,7 +24673,7 @@ GameObject:
   - component: {fileID: 545099399707511396}
   - component: {fileID: 8211836232471360667}
   - component: {fileID: 8211836232471360666}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bowl.030
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24098,7 +24758,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360666
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24126,7 +24786,7 @@ GameObject:
   - component: {fileID: 6438037630967653525}
   - component: {fileID: 8211836232471360773}
   - component: {fileID: 8211836232471360772}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CuaSo.073
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24211,7 +24871,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!64 &8211836232471360772
 MeshCollider:
   m_ObjectHideFlags: 0
