@@ -1,0 +1,173 @@
+fileFormatVersion: 2
+guid: d619f770d1e32054aaafbd71e474bf24
+ModelImporter:
+  serializedVersion: 20101
+  internalIDToNameTable:
+  - first:
+      74: 1508100741162431662
+    second: Porte.016|Close
+  - first:
+      74: 4656564122381832980
+    second: Porte.016|Idle.020
+  - first:
+      74: -6083430560389402257
+    second: Porte.016|Idle.021
+  - first:
+      74: -8813494706156900163
+    second: Porte.016|Idle.022
+  - first:
+      74: 5640847012104710583
+    second: Porte.016|Idle.023
+  - first:
+      74: 2918777159147167655
+    second: Porte.016|Open
+  - first:
+      74: 2418832998209536862
+    second: Porte.017|Close
+  - first:
+      74: -4337191782561622370
+    second: Porte.017|Idle.020
+  - first:
+      74: -8621264886219015331
+    second: Porte.017|Idle.021
+  - first:
+      74: -8740342738132396921
+    second: Porte.017|Idle.022
+  - first:
+      74: -5261065837113805414
+    second: Porte.017|Idle.023
+  - first:
+      74: -4721224506356751572
+    second: Porte.017|Open
+  - first:
+      74: 8825512365546042229
+    second: Porte.018|Close
+  - first:
+      74: -7953920714365851338
+    second: Porte.018|Idle.020
+  - first:
+      74: 1764752836505160011
+    second: Porte.018|Idle.021
+  - first:
+      74: 4190394897883246402
+    second: Porte.018|Idle.022
+  - first:
+      74: -686952310192173846
+    second: Porte.018|Idle.023
+  - first:
+      74: -212729876902528161
+    second: Porte.018|Open
+  - first:
+      74: 4500656310794647752
+    second: Porte.019|Close
+  - first:
+      74: -182451503526248602
+    second: Porte.019|Idle.020
+  - first:
+      74: -3520459587443677846
+    second: Porte.019|Idle.021
+  - first:
+      74: 1857467031095164519
+    second: Porte.019|Idle.022
+  - first:
+      74: 4259764813528839407
+    second: Porte.019|Idle.023
+  - first:
+      74: 2145804875457533759
+    second: Porte.019|Open
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
